@@ -7,14 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE030605209A878E00651F81 /* ApplicationWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = EE030604209A878E00651F81 /* ApplicationWindow.m */; };
+		EE030608209A87A000651F81 /* IconWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = EE030607209A87A000651F81 /* IconWindow.m */; };
+		EE03060B209A88B700651F81 /* XWindowImp.m in Sources */ = {isa = PBXBuildFile; fileRef = EE03060A209A88B700651F81 /* XWindowImp.m */; };
+		EE3C43DB209BCB6B007B56DC /* WindowsSystemFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3C43DA209BCB6B007B56DC /* WindowsSystemFactory.m */; };
 		EE7CDA89209A8612005B8A84 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7CDA88209A8612005B8A84 /* AppDelegate.m */; };
 		EE7CDA8C209A8612005B8A84 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7CDA8B209A8612005B8A84 /* ViewController.m */; };
 		EE7CDA8E209A8612005B8A84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE7CDA8D209A8612005B8A84 /* Assets.xcassets */; };
 		EE7CDA91209A8612005B8A84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE7CDA8F209A8612005B8A84 /* Main.storyboard */; };
 		EE7CDA94209A8612005B8A84 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7CDA93209A8612005B8A84 /* main.m */; };
+		EE7CDA9D209A862B005B8A84 /* Window.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7CDA9C209A862B005B8A84 /* Window.m */; };
+		EE7CDAA0209A863F005B8A84 /* WindowImp.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7CDA9F209A863F005B8A84 /* WindowImp.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EE030603209A878E00651F81 /* ApplicationWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ApplicationWindow.h; sourceTree = "<group>"; };
+		EE030604209A878E00651F81 /* ApplicationWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ApplicationWindow.m; sourceTree = "<group>"; };
+		EE030606209A87A000651F81 /* IconWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IconWindow.h; sourceTree = "<group>"; };
+		EE030607209A87A000651F81 /* IconWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IconWindow.m; sourceTree = "<group>"; };
+		EE030609209A88B700651F81 /* XWindowImp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XWindowImp.h; sourceTree = "<group>"; };
+		EE03060A209A88B700651F81 /* XWindowImp.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XWindowImp.m; sourceTree = "<group>"; };
+		EE3C43D9209BCB6B007B56DC /* WindowsSystemFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WindowsSystemFactory.h; sourceTree = "<group>"; };
+		EE3C43DA209BCB6B007B56DC /* WindowsSystemFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WindowsSystemFactory.m; sourceTree = "<group>"; };
 		EE7CDA84209A8612005B8A84 /* Bridge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bridge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE7CDA87209A8612005B8A84 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EE7CDA88209A8612005B8A84 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -25,6 +39,10 @@
 		EE7CDA92209A8612005B8A84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE7CDA93209A8612005B8A84 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EE7CDA95209A8612005B8A84 /* Bridge.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Bridge.entitlements; sourceTree = "<group>"; };
+		EE7CDA9B209A862B005B8A84 /* Window.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Window.h; sourceTree = "<group>"; };
+		EE7CDA9C209A862B005B8A84 /* Window.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Window.m; sourceTree = "<group>"; };
+		EE7CDA9E209A863F005B8A84 /* WindowImp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WindowImp.h; sourceTree = "<group>"; };
+		EE7CDA9F209A863F005B8A84 /* WindowImp.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WindowImp.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +77,18 @@
 			children = (
 				EE7CDA87209A8612005B8A84 /* AppDelegate.h */,
 				EE7CDA88209A8612005B8A84 /* AppDelegate.m */,
+				EE3C43D9209BCB6B007B56DC /* WindowsSystemFactory.h */,
+				EE3C43DA209BCB6B007B56DC /* WindowsSystemFactory.m */,
+				EE7CDA9B209A862B005B8A84 /* Window.h */,
+				EE7CDA9C209A862B005B8A84 /* Window.m */,
+				EE030603209A878E00651F81 /* ApplicationWindow.h */,
+				EE030604209A878E00651F81 /* ApplicationWindow.m */,
+				EE030606209A87A000651F81 /* IconWindow.h */,
+				EE030607209A87A000651F81 /* IconWindow.m */,
+				EE7CDA9E209A863F005B8A84 /* WindowImp.h */,
+				EE7CDA9F209A863F005B8A84 /* WindowImp.m */,
+				EE030609209A88B700651F81 /* XWindowImp.h */,
+				EE03060A209A88B700651F81 /* XWindowImp.m */,
 				EE7CDA8A209A8612005B8A84 /* ViewController.h */,
 				EE7CDA8B209A8612005B8A84 /* ViewController.m */,
 				EE7CDA8D209A8612005B8A84 /* Assets.xcassets */,
@@ -140,9 +170,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE030605209A878E00651F81 /* ApplicationWindow.m in Sources */,
 				EE7CDA8C209A8612005B8A84 /* ViewController.m in Sources */,
+				EE3C43DB209BCB6B007B56DC /* WindowsSystemFactory.m in Sources */,
 				EE7CDA94209A8612005B8A84 /* main.m in Sources */,
+				EE030608209A87A000651F81 /* IconWindow.m in Sources */,
+				EE7CDAA0209A863F005B8A84 /* WindowImp.m in Sources */,
+				EE03060B209A88B700651F81 /* XWindowImp.m in Sources */,
 				EE7CDA89209A8612005B8A84 /* AppDelegate.m in Sources */,
+				EE7CDA9D209A862B005B8A84 /* Window.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +304,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Bridge/Bridge.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 49XFPF8C85;
@@ -275,6 +312,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cisco.Bridge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
@@ -283,6 +321,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Bridge/Bridge.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 49XFPF8C85;
@@ -290,6 +329,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cisco.Bridge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
